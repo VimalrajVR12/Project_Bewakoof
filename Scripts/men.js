@@ -30,7 +30,7 @@ headerDiv.innerHTML = header();
 
 // Products Displaying
 let page = 1;
-let url = `http://localhost:3000/menShirts?`
+let url = `https://bewakoof-project-final.onrender.com/menShirts?`
 async function fetchData(url){
     try{
         let data = await fetch(`${url}_page=${page}&_limit=15`)
